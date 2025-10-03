@@ -3,10 +3,10 @@
 This project focuses on text extraction, web scraping, data processing, and visualization from scanned PDF files.
 
 ## Features
-Data Collection / Storage
-PDF Extraction
-Additional Web Scraped Information
-Web Access and Visualization
+- Data Collection / Storage
+- PDF Extraction
+- Additional Web Scraped Information
+- Web Access and Visualization
 
 ## Usage
 
