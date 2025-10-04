@@ -11,23 +11,23 @@ W21796.pdf,,Dahl Federal 2‚Äê15H,33-053-03846,,,McKenzie Offset Wells,,48.08
 W22099.pdf,Oasis Petroleum,YUKON 5301 41-12T,33-053-03911,,,MCKENZIE,,48.08291694,-102.3769561,Mean Sea Level
 W22220.pdf,Jace Pitre,Jefferies 5301 43-12B,33-053-03911,,,,,48.08276667,-103.6120139,Mean Sea Level
 W22221.pdf,"Oasis Petroleum North America, LLC",Innoko 5301 43-12T,33-053-03911,,,McKenzie State: ND Directional Supervision:,,48.08278889,-103.6137444,Mean Sea Level
-W22247.pdf,"Slawson Exploration Co., Inc.",MAGNUM 1-36-25H,33-053-03943,,,MCKENZIE,,48.025097,_103.622320,RKB 22.00' @ 2209.00ft (Nabors 419)
-W22249.pdf,,Magnum 2-36-25H,33-053-03944,,,,,48.02492,_103.60458,RKB
-W22731.pdf,Slawson,MAGNUM 3-36-25H,33-053-04069,,,MCKENZIE,,48.024921,_103.604689,RKB
+W22247.pdf,"Slawson Exploration Co., Inc.",MAGNUM 1-36-25H,33-053-03943,,,MCKENZIE,,48.025097,-103.622320,RKB 22.00' @ 2209.00ft (Nabors 419)
+W22249.pdf,,Magnum 2-36-25H,33-053-03944,,,,,48.02492,-103.60458,RKB
+W22731.pdf,Slawson,MAGNUM 3-36-25H,33-053-04069,,,MCKENZIE,,48.024921,-103.604689,RKB
 W22740.pdf,"Oasis Petroleum North America, LLC",Larry 5301 44-12B,33-053-03911,,,McKenzie State: ND Directional Supervision:,,48.08276667,-103.6120139,Mean Sea Level
 W23230.pdf,OASIS PETROLEUM NORTH AMERICA LLC,ASH FEDERAL 5300 11-18T,33-053-04211,,,MCKENZIE,,48.07979167,-103.6027,
-W23359.pdf,"Continental Resources, Inc.",Atlanta 14-6H,33-105-02719,,,Williams & McKenzie Co.,,48.109347,_103.727517,
-W23360.pdf,"Continental Resources, Inc.",Atlanta 13-6H,33-105-02720,,,Williams & McKenzie,,48.109347,_103.727700,
-W23361.pdf,"Continental Resources, Inc.",Atlanta 12-6H,33-105-02721,,,Williams & McKenzie Co.,,48.109347,_103.727885,
-W23362.pdf,"Continental Resources, Inc.",Atlanta 11-6H,33-105-02722,,,Williams,,48.109347,_103.728069,
-W23363.pdf,"Continental Resources, Inc.",Atlanta 10-6H,33-105-02723,,,Williams & McKenzie Co.,,48.109347,_103.728253,
-W23364.pdf,"Continental Resources, Inc.",Atlanta Federal 9-6H,33-105-02724,,,Williams & McKenzie,,48.109347,_103.728436,
-W23365.pdf,,Atlanta Federal 8-6H,33-105-02725,,,,,48.109347,_103.729625,
-W23366.pdf,"Continental Resources, Inc.",Atlanta 7-6H,33-105-02726,,,Williams & McKenzie,,48.10935,_103.72980,
-W23367.pdf,Versatile Energy,ATLANTA FEDERAL 6-6H,33-105-02727,,,WILLIAMS,,48.10935,_103.729992,
-W23368.pdf,"Continental Resources, Inc.",Atlanta Federal 5-6H,33-105-02728,,,Williams & McKenzie,,48.10935,_103.730175,
-W23369.pdf,Schlumberger,ATLANTA 4-6H,33-105-02729,,,WILLIAMS,,48.109352,_103.730995,
-W23370.pdf,"Continental Resources, Inc.",Atlanta 3-6H,33-105-02730,,,Williams & McKenzie,,48.109352,_103.731179,
+W23359.pdf,"Continental Resources, Inc.",Atlanta 14-6H,33-105-02719,,,Williams & McKenzie Co.,,48.109347,-103.727517,
+W23360.pdf,"Continental Resources, Inc.",Atlanta 13-6H,33-105-02720,,,Williams & McKenzie,,48.109347,-103.727700,
+W23361.pdf,"Continental Resources, Inc.",Atlanta 12-6H,33-105-02721,,,Williams & McKenzie Co.,,48.109347,-103.727885,
+W23362.pdf,"Continental Resources, Inc.",Atlanta 11-6H,33-105-02722,,,Williams,,48.109347,-103.728069,
+W23363.pdf,"Continental Resources, Inc.",Atlanta 10-6H,33-105-02723,,,Williams & McKenzie Co.,,48.109347,-103.728253,
+W23364.pdf,"Continental Resources, Inc.",Atlanta Federal 9-6H,33-105-02724,,,Williams & McKenzie,,48.109347,-103.728436,
+W23365.pdf,,Atlanta Federal 8-6H,33-105-02725,,,,,48.109347,-103.729625,
+W23366.pdf,"Continental Resources, Inc.",Atlanta 7-6H,33-105-02726,,,Williams & McKenzie,,48.10935,-103.72980,
+W23367.pdf,Versatile Energy,ATLANTA FEDERAL 6-6H,33-105-02727,,,WILLIAMS,,48.10935,-103.729992,
+W23368.pdf,"Continental Resources, Inc.",Atlanta Federal 5-6H,33-105-02728,,,Williams & McKenzie,,48.10935,-103.730175,
+W23369.pdf,Schlumberger,ATLANTA 4-6H,33-105-02729,,,WILLIAMS,,48.109352,-103.730995,
+W23370.pdf,"Continental Resources, Inc.",Atlanta 3-6H,33-105-02730,,,Williams & McKenzie,,48.109352,-103.731179,
 W23371.pdf,Petty Construction,ATLANTA 2-6H,33-105-02731,,,WILLIAMS,,48.10999722,-103.731825,Mean Sea Level
 W23372.pdf,Continental Resources,ATLANTA 1-6H,33-105-02732,,,WILLIAMS,,48.109352,-103.731179,Mean Sea Level
 W25156.pdf,"CONTINENTAL RESOURCES, INC",Columbus Federal 1-16H,33-053-04852,,RATE GYRO,McKenzie Range/Section 101W 16,,48.07490694,-103.6702094,North American Datum 1983 Ellipsoid: GRS 1980
@@ -44,7 +44,7 @@ W28394.pdf,Oasis Rig: Patterson 488,Wade Federal 5300 41-30 4T,33-053-05943,,"MW
 W28425.pdf,Oasis Rig: Patterson 488,WADE FEDERAL 5300 41-30 6B,33-053-05995,,,MCKENZIE,,48.04129167,-103.6030056,KB 32ft
 W28554.pdf,Oasis Rig: Patterson 488,WADE FEDERAL 5300 31-30 2B,33-053-05995,,,MCKENZIE,,48.04238333,-103.6031694,KB 25ft
 W28557.pdf,Oasis Rig: Patterson 488,WADE FEDERAL 5300 41-30 7T,33-053-05995,,,MCKENZIE,,48.04238333,-103.6031694,NAD 83 LO\ 7 \' \
-W28599.pdf,"Oasis Petroleum North America, LLC",Chalmers 5301 44-24 3BR,33-053-05924,,,McKenzie State: ND Directional Supervision:,,48.055694,_103.60515,
+W28599.pdf,"Oasis Petroleum North America, LLC",Chalmers 5301 44-24 3BR,33-053-05924,,,McKenzie State: ND Directional Supervision:,,48.055694,-103.60515,
 W28600.pdf,"Oasis Petroleum North America, LLC",Chalmers 5301 44-24 4T2R,33-053-05924,,,McKenzie State: ND Directional Supervision:,,48.055694,-103.605153,
 W28601.pdf,Daniel Ogden,Chalmers Wade Fed. 5301 44-24 12TXR,33-053-06012,,,McKenzie State: ND Directional Supervision:,,48.055467,-103.605153,
 W28633.pdf,"Oasis Petroleum North America, LLC",Chalmers 5300 21-19 5T,33-053-06018,,,Mckenzie State: ND Directional Supervision:,,48.061742,48.061742,
@@ -62,7 +62,7 @@ W28744.pdf,Oasis Rig: Patterson 488,WADE FEDERAL 5300 41-30 9B,33-053-06051,,,MC
 W28754.pdf,"Oasis Petroleum North America, LLC",Kline Federal 5300 31-18 8B,33-053-06055,S15074-02,"MWD D&I County, State: McKenzie County, N. Dakota",,"Lot 3, Sec. 18, T153N, R100W (2523‚Äô FSL & 238 FWL)",48.07448889,-103.6031611,Nad 83
 W28755.pdf,"Oasis Petroleum North America, LLC",Kline Federal 5300 31-18 7T,33-053-06056,S15073-02,"MWD D&I County, State: McKenzie County, N. Dakota",,"Lot 3, Sec. 18, T153N, R100W (2490‚Äô FSL & 238 FWL)",48.0744,-103.6031611,Nad 83
 W28756.pdf,Oasis Petroleum LLC,Kline Federal 5300 31-18 6B,33-053-06057,S15072-02,"MWD D&I County, State: McKenzie County, N. Dakota",,"Lot 3, Sec. 18, T153N, R100W (2457‚Äô FSL & 238 FWL)",48.07430833,-103.6031611,Nad 83
-W28976.pdf,"Oasis Petroleum North America, LLC",Wade Federal 5301 21-30 12T,33-053-06129,,,McKenzie State: ND Directional Supervision:,,48.04865,_103.603047,"NAO 83 AZ 359¬∑55'00"""
+W28976.pdf,"Oasis Petroleum North America, LLC",Wade Federal 5301 21-30 12T,33-053-06129,,,McKenzie State: ND Directional Supervision:,,48.04865,-103.603047,"NAO 83 AZ 359¬∑55'00"""
 W28978.pdf,Daniel Ogden,Wade Federal 5300 21-30 13B,33-053-06131,,,McKenzie State: ND Directional Supervision:,,48.04238333,-103.6031694,"NAO 83 LOTS ' AZ 359¬∑55'00"""
 W29242.pdf,"Oasis Petroleum North America, LLC",Kline Federal 5300 11-18 5B,33-053-06223,,,MCKENZIE,,48.07416667,-103.6031611,Mean Sea Level
 W29244.pdf,Oasis Petroleum North America LLC,Kline Federal 5300 11-18 3T,33-053-06225,S15091-02,"MWD D&I County, State: McKenzie County, N. Dakota",,"Lot 1, Sec. 18, T153N, R100W (1020‚Äô FNL & 290 FWL)",48.07919167,-103.6029417,Nad 83
@@ -71,7 +71,7 @@ W29317.pdf,Oasis Petroleum North America LLC,Gramma Federal 5300 41-31 13T2,33-0
 W29334.pdf,"Oasis Petroleum North America, LLC.",Kline Federal 5300 11-18 2B,33-053-06243,S15090-02,"MWD D&I County, State: McKenzie County, N. Dakota",,"Lot 1, Sec. 18, T153N, R100W (960‚Äô FNL & 318 FWL)",48.07935556,-103.6028306,Nad 83
 W30188.pdf,"Oasis Petroleum North America, LLC",Lewis Federal 5300 11-31 3B,33-053-06548,,,,,48.03591667,-103.6030722,North American Datum 1983
 W30189.pdf,"Oasis Petroleum North America, LLC",Lewis Federal 5300 11-31 2B,33-053-06549,,,,,48.03591667,-103.6030722,North American Datum 1983
-W30789.pdf,M McCammond / S Hayman,Kline Federal 5300 31-18 15T,33-053-06755,,,MCKENZIE,,48.074581,_103.603161,
+W30789.pdf,M McCammond / S Hayman,Kline Federal 5300 31-18 15T,33-053-06755,,,MCKENZIE,,48.074581,-103.603161,
 W36047.pdf,Oasis Petroleum North America LLC,Lewis Federal 5300 11-31 4BR,33-053-08946,,,,,48.03591667,-103.6030722,North American Datum 1983
 W90244.pdf,OASIS PETROLEUM NORTH AMERICA LLC,lsucK SHOT SWD 5300 31-31,33-053-90244,,,,,48.02908333,-103.599575,NAD 83 I
 W90258.pdf,"CONTINENTAL RESOURCES, INC.",ATLANTA #1 SWD,33-105-90258,,,WILLIAMS,,48.10999722,-103.731825,Mean Sea Level
