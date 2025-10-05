@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Oil Wells Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    <script src="lib/leaflet/leaflet.js"></script>
+    <style>
+        #map { height: 100vh; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        const southWest = L.latLng(-90, -180);
+        const northEast = L.latLng(90, 180);
+        const bounds = L.latLngBounds(southWest, northEast);
+
+        const map = L.map('map', {
+            worldCopyJump: false,
+            maxBounds: L.latLngBounds([-90, -180], [90, 180]),
+            maxBoundsViscosity: 1.0
+        });
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap contributors',
+            noWrap: true
+        }).addTo(map);
+
+        map.fitWorld();
+
+        fetch('/wells')
+        .then(r => r.json())
+        .then(data => {
+            const markersGroup = L.featureGroup();
+
+            data.forEach(well => {
+                let lat = parseFloat(well.latitude);
+                let lng = parseFloat(well.longitude);
+
+                if (isNaN(lat) || isNaN(lng)) return;
+
+                if (Math.abs(lat) > 90 && Math.abs(lng) <= 90) {
+                    [lat, lng] = [lng, lat];
+                    console.warn('swapped values', well);
+                }
+
+                if (lat < -90 || lat > 90 || lng < -180 || lng > 180) {
+                    console.warn('invalid coord', lat, lng, well);
+                    return;
+                }
+
+            const popupHtml = `
+                <div style="display:flex;justify-content:space-between;gap:20px;align-items:flex-start;">
+                    <div style="flex:1;min-width:200px;">
+                        <h4 style="margin:0 0 6px 0;">Oil Well</h4>
+                        <div><b>Name:</b> ${well.well_name || '-'}</div>
+                        <div><b>Status:</b> ${well.well_status || '-'}</div>
+                        <div><b>Type:</b> ${well.well_type || '-'}</div>
+                        <div><b>Operator:</b> ${well.operator || '-'}</div>
+                        <div><b>Closest City:</b> ${well.closest_city || '-'}</div>
+                        <div><b>County/State:</b> ${well.county_state || '-'}</div>
+                        <div><b>ENSECO Job:</b> ${well.enseco_job || '-'}</div>
+                        <div><b>Gas Badge:</b> ${well.gas_badge || '-'}</div>
+                        <div><b>Oil Badge:</b> ${well.oil_badge || '-'}</div>
+                    </div>
+                    <div style="flex:1;min-width:200px;">
+                        <h4 style="margin:0 0 6px 0;">Stimulation Data</h4>
+                        <div><b>Formation:</b> ${well.stimulated_formation || '-'}</div>
+                        <div><b>Acid %:</b> ${well.acid_pct || '-'}</div>
+                        <div><b>Lbs Proppant:</b> ${well.lbs_proppant || '-'}</div>
+                        <div><b>Top (ft):</b> ${well.top_ft || '-'}</div>
+                        <div><b>Bottom (ft):</b> ${well.bottom_ft || '-'}</div>
+                        <div><b>Volume:</b> ${well.volume || '-'} ${well.volume_units || ''}</div>
+                        <div><b>Max Pressure (psi):</b> ${well.max_pressure_psi || '-'}</div>
+                        <div><b>Max Rate (bbls/min):</b> ${well.max_treatment_rate_bbls_min || '-'}</div>
+                    </div>
+                </div>
+            `;
+
+            markersGroup.addLayer(L.marker([lat, lng]).bindPopup(popupHtml, { maxWidth: "auto" }));
+
+            });
+
+            markersGroup.addTo(map);
+
+            if (markersGroup.getLayers().length) {
+                map.fitBounds(markersGroup.getBounds().pad(0.1));
+            }
+        })
+        .catch(err => console.error(err));
+    </script>
+</body>
+</html>
